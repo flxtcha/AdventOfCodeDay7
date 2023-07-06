@@ -36,8 +36,14 @@ public class Main {
                 currentDirectory.setSize(Integer.parseInt(command[0]));
             }
         }
+        System.out.println();
         scanner.close();
 
+
+        directoryRoot.totalFileSize();
+
         System.out.println("Answer to problem 1 is: " + Directory.answer1);
+
+
     }
 }
